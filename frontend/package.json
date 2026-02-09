@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "echo 'Git commit:' && git rev-parse HEAD && next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
