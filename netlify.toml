@@ -5,11 +5,11 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://fashnai-api.onrender.com/api/:splat"
+  to = "https://fashnai-api-production.up.railway.app/api/:splat"
   status = 200
 
 [build.environment]
-  NEXT_PUBLIC_API_URL = "https://fashnai-api.onrender.com"
+  NEXT_PUBLIC_API_URL = "https://fashnai-api-production.up.railway.app"
 
 [[headers]]
   for = "/*"
